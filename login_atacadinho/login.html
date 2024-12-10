@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - ATACADINHO</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Lado esquerdo da tela -->
+        <div class="lado-esquerdo">
+            <img src="./src/linhas.png" alt="linhas" class="linhas">
+            <img src="./src/logo-senac.png" alt="Logo" class="logo">
+        </div>
+
+        <!-- Lado direito da tela -->
+        <div class="lado-direito">
+            <div class="container-formulario">
+                <div class="icone-perfil">
+                    <img src="./src/icon-login.png" alt="Ícone de perfil">
+                </div>
+                <h2>LOGIN</h2>
+                <p>Seja bem-vindo(a) :)</p>
+                
+                <form action="#" method="POST">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" id="usuario" name="usuario" placeholder="Digite seu usuário" required>
+
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+
+                    <div class="botoes">
+                        <a href="../cadastro_atacadinho/cadastro.html">
+                            <button type="button" class="cadastrar">Cadastre-se</button>
+                        </a>
+                        <button type="submit" class="entrar">Entrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
