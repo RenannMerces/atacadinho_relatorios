@@ -227,7 +227,6 @@
     max-height: 400px; 
     overflow-y: auto; 
     border-radius: 5px;
-    /* border: 1px solid #ddd; */
     scrollbar-width: thin; 
     scrollbar-color: #cccccc #f9f9f9; 
 }

@@ -4,45 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Relatórios - ATACADINHO</title>
-    <link rel="stylesheet" href="/relatorios_atacadinho/relatorios.css">
+    <link rel="stylesheet" href="relatorios.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-    <!-- Cabeçalho do Site -->
-    <header class="container-header">
-        <img src="/relatorios_atacadinho/src/senac_logo.png" alt="Logo do Senac">
+   <!-- Cabeçalho do Site -->
+   <header class="container-header">
+    <img src="../relatorios_atacadinho/src/senac_logo.png" alt="Logo do Senac">
+    <hr>
+    <p>ATACADINHO</p>
+    <div class="botoes-navegacao">
         <hr>
-        <p>ATACADINHO</p>
-        <div class="botoes-navegacao">
-            <hr>
-            <a href="/produtos_atacadinho/produtos.html">
-                <button class="botao-navegacao" title="Produtos (F1)">PRODUTOS (F1)</button>
-            </a>
-            <hr>
-            <a href="/login_atacadinho/login.html">
-                <button class="botao-navegacao" title="Vendas-PVD (F2)">LOGIN (F2)</button>
-            </a>
-            <hr>
-            <a href="/relatorios_atacadinho/relatorios.html">
-                <button class="botao-navegacao" title="Relatórios (F3)">RELATÓRIOS (F3)</button>
-            </a>
-            <hr>
-            <a href="/cadastro_atacadinho/cadastro.html">
-                <button class="botao-navegacao" title="Cadastro Usuários">CADASTRO (F9)</button>
-            </a>
-            <hr>
-            <a href="/listagem_atacadinho/listagem.html">
-                <button class="botao-navegacao" title="Listagem Produtos">LISTAGEM (F10)</button>
-            </a>
-            <hr>
-        </div>
-        <div class="header-icons">
-            <button class="icon minimize" title="Minimizar" aria-label="Minimizar">—</button>
-            <button class="icon maximize" title="Maximizar/Restaurar" aria-label="Maximizar/Restaurar">□</button>
-            <button class="icon close" title="Fechar" aria-label="Fechar">×</button>
-        </div>
-    </header>
-    
+        <a href="../produtos_atacadinho/produtos.html">
+            <button class="botao-navegacao" title="Produtos (F1)">PRODUTOS (F1)</button>
+        </a>
+        <hr>
+        <a href="../login_atacadinho/login.html">
+            <button class="botao-navegacao" title="Vendas-PVD (F2)">LOGIN (F2)</button>
+        </a>
+        <hr>
+        <a href="../relatorios_atacadinho/relatorios.html">
+            <button class="botao-navegacao" title="Relatórios (F3)">RELATÓRIOS (F3)</button>
+        </a>
+        <hr>
+        <a href="../cadastro_atacadinho/cadastro.html">
+            <button class="botao-navegacao" title="Cadastro Usuários">CADASTRO (F9)</button>
+        </a>
+        <hr>
+        <a href="../listagem_atacadinho/listagem.html">
+            <button class="botao-navegacao" title="Listagem Produtos">LISTAGEM (F10)</button>
+        </a>
+        <hr>
+    </div>
+    <div class="header-icons">
+        <button class="icon minimize" title="Minimizar" aria-label="Minimizar">—</button>
+        <button class="icon maximize" title="Maximizar/Restaurar" aria-label="Maximizar/Restaurar">□</button>
+        <button class="icon close" title="Fechar" aria-label="Fechar">×</button>
+    </div>
+</header>
 
 <!-- Tpitulo Relatórios junto com os botões que muda para as outras tabelas -->
     <main class="container-principal">
@@ -63,7 +62,7 @@
                         <button id="extrato">Extrato</button>
                     </li>
                     <li class="btn-relatorio">
-                        <button id="transacoes">Transações</button>
+                        <button id="produtos">Produtos</button>
                     </li>
                 </ul>
             </nav>
@@ -83,25 +82,6 @@
 
        <!-- Tabela 1 de Vendas -->
         <section class="container-tabela">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Data</th>
-                        <th>Hora</th>
-                        <th>Produto</th>
-                        <th>Código</th>
-                        <th>Valor Unit.</th>
-                        <th>Quant.</th>
-                        <th>Sub-total</th>
-                        <th>Desconto</th>
-                        <th>Total Item</th>
-                        <th>Vendedor</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    
-                </tbody>
-            </table>
         </section>
 
         <!--* ------------------ GRÁFICO E CAMPO DE RESUMO ------------------->
@@ -348,6 +328,6 @@
 
 
 </main>
-    <script src="/relatorios_atacadinho/relatorios.js"></script>
+    <script src="./relatorios.js"></script>
 </body>
 </html>

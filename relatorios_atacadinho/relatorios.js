@@ -6,8 +6,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const containerTransacoes = document.querySelector(".container-transacoes");
     const filtro = document.getElementById("filtro");
     const inputFiltro = document.getElementById("input-filtro");
-    const modalResumo = document.querySelector(".modal"); // Seleciona o modal de resumo
+    const modalResumo = document.querySelector(".modal"); 
     
+
+    //! obs**: Ainda falta finalizar essa tela de relatórios, falta implementar algumas funções ainda
+    //! E se por acaso tiver alguma burrice aq no codigo do js, sorry ksksksk, ainda tô em processo de aprendizado, pfvr releva ksksks
+    //! Mas em adiante, espero que tenham gostado do que eu fiz aq, tentei fazer algo bacana :D
 
     // Dados para cada tabela
     const dadosTabela = {
@@ -42,174 +46,6 @@ document.addEventListener("DOMContentLoaded", () => {
                             <td>R$ 3.400,00</td>
                             <td>João Silva</td>
                         </tr>
-                        <tr>
-                            <td>16/11/2024</td>
-                            <td>14:35</td>
-                            <td>Notebook Dell</td>
-                            <td>ND12345</td>
-                            <td>R$ 3.500,00</td>
-                            <td>1</td>
-                            <td>R$ 3.500,00</td>
-                            <td>R$ 100,00</td>
-                            <td>R$ 3.400,00</td>
-                            <td>João Silva</td>
-                        </tr>
-                        <tr>
-                            <td>16/11/2024</td>
-                            <td>14:35</td>
-                            <td>Notebook Dell</td>
-                            <td>ND12345</td>
-                            <td>R$ 3.500,00</td>
-                            <td>1</td>
-                            <td>R$ 3.500,00</td>
-                            <td>R$ 100,00</td>
-                            <td>R$ 3.400,00</td>
-                            <td>João Silva</td>
-                        </tr>
-                        <tr>
-                            <td>16/11/2024</td>
-                            <td>14:35</td>
-                            <td>Notebook Dell</td>
-                            <td>ND12345</td>
-                            <td>R$ 3.500,00</td>
-                            <td>1</td>
-                            <td>R$ 3.500,00</td>
-                            <td>R$ 100,00</td>
-                            <td>R$ 3.400,00</td>
-                            <td>João Silva</td>
-                        </tr>
-                        <tr>
-                            <td>16/11/2024</td>
-                            <td>14:35</td>
-                            <td>Notebook Dell</td>
-                            <td>ND12345</td>
-                            <td>R$ 3.500,00</td>
-                            <td>1</td>
-                            <td>R$ 3.500,00</td>
-                            <td>R$ 100,00</td>
-                            <td>R$ 3.400,00</td>
-                            <td>João Silva</td>
-                        </tr>
-                        <tr>
-                            <td>16/11/2024</td>
-                            <td>14:35</td>
-                            <td>Notebook Dell</td>
-                            <td>ND12345</td>
-                            <td>R$ 3.500,00</td>
-                            <td>1</td>
-                            <td>R$ 3.500,00</td>
-                            <td>R$ 100,00</td>
-                            <td>R$ 3.400,00</td>
-                            <td>João Silva</td>
-                        </tr>
-                        <tr>
-                            <td>16/11/2024</td>
-                            <td>14:35</td>
-                            <td>Notebook Dell</td>
-                            <td>ND12345</td>
-                            <td>R$ 3.500,00</td>
-                            <td>1</td>
-                            <td>R$ 3.500,00</td>
-                            <td>R$ 100,00</td>
-                            <td>R$ 3.400,00</td>
-                            <td>João Silva</td>
-                        </tr>
-                        <tr>
-                            <td>16/11/2024</td>
-                            <td>14:35</td>
-                            <td>Notebook Dell</td>
-                            <td>ND12345</td>
-                            <td>R$ 3.500,00</td>
-                            <td>1</td>
-                            <td>R$ 3.500,00</td>
-                            <td>R$ 100,00</td>
-                            <td>R$ 3.400,00</td>
-                            <td>João Silva</td>
-                        </tr>
-                        <tr>
-                            <td>16/11/2024</td>
-                            <td>14:35</td>
-                            <td>Notebook Dell</td>
-                            <td>ND12345</td>
-                            <td>R$ 3.500,00</td>
-                            <td>1</td>
-                            <td>R$ 3.500,00</td>
-                            <td>R$ 100,00</td>
-                            <td>R$ 3.400,00</td>
-                            <td>João Silva</td>
-                        </tr>
-                        <tr>
-                            <td>16/11/2024</td>
-                            <td>14:35</td>
-                            <td>Notebook Dell</td>
-                            <td>ND12345</td>
-                            <td>R$ 3.500,00</td>
-                            <td>1</td>
-                            <td>R$ 3.500,00</td>
-                            <td>R$ 100,00</td>
-                            <td>R$ 3.400,00</td>
-                            <td>João Silva</td>
-                        </tr>
-                        <tr>
-                            <td>16/11/2024</td>
-                            <td>14:35</td>
-                            <td>Notebook Dell</td>
-                            <td>ND12345</td>
-                            <td>R$ 3.500,00</td>
-                            <td>1</td>
-                            <td>R$ 3.500,00</td>
-                            <td>R$ 100,00</td>
-                            <td>R$ 3.400,00</td>
-                            <td>João Silva</td>
-                        </tr>
-                        <tr>
-                            <td>16/11/2024</td>
-                            <td>14:35</td>
-                            <td>Notebook Dell</td>
-                            <td>ND12345</td>
-                            <td>R$ 3.500,00</td>
-                            <td>1</td>
-                            <td>R$ 3.500,00</td>
-                            <td>R$ 100,00</td>
-                            <td>R$ 3.400,00</td>
-                            <td>João Silva</td>
-                        </tr>
-                        <tr>
-                            <td>16/11/2024</td>
-                            <td>14:35</td>
-                            <td>Notebook Dell</td>
-                            <td>ND12345</td>
-                            <td>R$ 3.500,00</td>
-                            <td>1</td>
-                            <td>R$ 3.500,00</td>
-                            <td>R$ 100,00</td>
-                            <td>R$ 3.400,00</td>
-                            <td>João Silva</td>
-                        </tr>
-                        <tr>
-                            <td>16/11/2024</td>
-                            <td>14:35</td>
-                            <td>Notebook Dell</td>
-                            <td>ND12345</td>
-                            <td>R$ 3.500,00</td>
-                            <td>1</td>
-                            <td>R$ 3.500,00</td>
-                            <td>R$ 100,00</td>
-                            <td>R$ 3.400,00</td>
-                            <td>João Silva</td>
-                        </tr>
-                        <tr>
-                            <td>16/11/2024</td>
-                            <td>14:35</td>
-                            <td>Notebook Dell</td>
-                            <td>ND12345</td>
-                            <td>R$ 3.500,00</td>
-                            <td>1</td>
-                            <td>R$ 3.500,00</td>
-                            <td>R$ 100,00</td>
-                            <td>R$ 3.400,00</td>
-                            <td>João Silva</td>
-                        </tr>
                     </tbody>
                 </table>`
         },
@@ -230,177 +66,13 @@ document.addEventListener("DOMContentLoaded", () => {
                             <td>18:00</td>
                             <td>R$ 8.000,00</td>
                         </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
-                        <tr>
-                            <td>15/11/2024</td>
-                            <td>18:00</td>
-                            <td>R$ 8.000,00</td>
-                        </tr>
                     </tbody>
                 </table>`
         },
     };
 
-    // Função para atualizar a tabela e a visibilidade dos elementos
+    //* ------------------------ FUNÇÃO DE MUDAR DE TABELA ---------------------------//
+
     function mudarTabela(tipoTabela) {
         containerTabela.innerHTML = ''; // Limpa a tabela existente
         containerGrafico.style.display = 'none'; // Esconde o gráfico de linha
@@ -434,7 +106,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-        // Adicionar o evento de clique nos botões para alternar a exibição
         buttons.forEach(button => {
             button.addEventListener("click", () => {
                 buttons.forEach(btn => btn.classList.remove("ativo")); // Remove a classe ativo de todos os botões
@@ -452,6 +123,7 @@ document.addEventListener("DOMContentLoaded", () => {
         exibirGraficoPizza(false);
         exibirTabela(true);
 
+
     //* ------------------------- GRÁFICO DE TRANSAÇÕES ------------------------------//
 
     function atualizarVisibilidade(botaoClicadoId) {
@@ -459,7 +131,7 @@ document.addEventListener("DOMContentLoaded", () => {
         containerTransacoes.style.display = 'none';
 
         // Verifica se o botão clicado é o de "Transações"
-        if (botaoClicadoId === 'transacoes') {
+        if (botaoClicadoId === 'produtos') {
             containerTransacoes.style.display = 'block'; 
         }
     }
@@ -641,7 +313,7 @@ const graficoVendas = new Chart(contexto, {
   const pizzaGrafico = document.getElementById("myPieChart").getContext("2d");
   const myPieChart = new Chart(pizzaGrafico, config);
 
-// * ------------------------------ GRAFICO DE TRANSAÇÕES ------------------------------------//
+// * ------------------------------ GRAFICO DE PRODUTOS ------------------------------------//
 
 
 const colunas = document.getElementById('myChart').getContext('2d');
@@ -673,7 +345,7 @@ const myChart = new Chart(colunas, {
     options: {
         scales: {
             y: {
-                beginAtZero: true // Inicia o eixo Y do zero
+                beginAtZero: true 
             }
         }
     }
